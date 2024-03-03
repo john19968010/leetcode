@@ -27,9 +27,17 @@ Outcome: Definitely wrong !!!!! `DFT-preorder` traverses the nodes from left to 
 
 code: [here](1.py)
 
-### Second Try
+### Second Try (Wrong)
 Intro: Finally know what `Depth-First Tree Traversal is, so i try to get all values out using this way, and using index range to know which level it is.
 
 Outcome: Wrong when all the other side is `null`, that is the bug if i still want to use searching index range method.
 
 code: [here](2.py)
+
+### Second Try (Correct)
+Intro: Not using searching index range method, instead of writing two queue to distingush the current level node and the next level node.
+
+Outcome: Corrent, but running time 29ms(93.2%), 16.80MB(75.08%), not good enough.
+
+
+
