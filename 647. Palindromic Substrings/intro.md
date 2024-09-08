@@ -27,9 +27,9 @@ Outcome: Wrong, calculated part is wrong, e.g aabaa is more that 2 answers (aaba
 code: [here](1.py)
 
 
-<!-- ### Second Try (Correct)
-Intro: Maybe it is not necessary to create a temp_queues, so use range() feature to run the max times of process in queue.
+### Second Try (Correct)
+Intro: Find the formula, and using the formula + DP to get the answer
 
-Outcome: Correct, Running time 40ms(82.24%),  Memory usage 18.62MB(7.28%), 
-    Due to python list characteristic(Dynamic size increase) so the memory usage increase.
-code: [here](2.py) -->
+Outcome: Correct, Running time 246ms Beats 32.38%,  Memory usage 24.49MB Beats 22.35%
+    Seem there is still a room to improve.
+code: [here](2.py)
